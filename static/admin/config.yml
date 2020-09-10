@@ -26,6 +26,13 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+  
+  - name: "show"
+    label: "Show"
+    fields:
+      - {label:"Título", name: "titulo", widget: string}
+      - {label:"Foto", name: "foto", widget: image}
+      - {label:"Data do show", name: "data", widget: datetime}      
 
   - name: "pages"
     label: "Pages"
