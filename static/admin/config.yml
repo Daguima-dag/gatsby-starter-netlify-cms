@@ -32,7 +32,10 @@ collections:
     fields:
       - {label:"Título", name: "titulo", widget: string}
       - {label:"Foto", name: "foto", widget: image}
-      - {label:"Data do show", name: "data", widget: datetime}      
+      - {label:"Data do show", name: "data", widget: datetime}
+      create: true
+      slug: "{{slug}}-{{day}}-{{month}}-{{year}}"
+      folder: "src/pages/shows"
 
   - name: "pages"
     label: "Pages"
